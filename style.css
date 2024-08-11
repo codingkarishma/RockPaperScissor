@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px solid red; */
+    height: 100vh;
+    /* background-color: black; */
+        background: linear-gradient(to bottom, rgb(220, 103, 193), rgb(209, 209, 244),rgb(201, 52, 201));
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    width: 100%;
+    /* height: 10%; */
+    /* border: 2px solid yellow; */
+    background-color: rgb(190, 163, 231);
+    text-align: center;
+    padding: 1%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gameArea{
+    margin-top: 7rem;
+    /* border: 2px solid green; */
+    min-width: 50%;
+    min-height: 50%;
+    background-color: rgb(245, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fists{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.fists .fa-regular{
+    color: #e45c0dfb;
+}
+#playerfist{
+    font-size: 20vh;
+    /* border: 2px solid red; */
+    transform: rotate(90deg);
+    margin: 0 1rem;
+    
+}
+
+#compfist{
+    font-size: 20vh;
+    /* border: 2px solid red; */
+    transform: rotate(-90deg) rotateY(180deg);
+    margin: 0 1rem;
+}
+.options{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-regular{
+    font-size: 12vh;
+    margin-bottom: 5%;
+    color: #b85988;
+    opacity: 0.6;
+   
+}
+
+.fa-hand-scissors{
+    rotate: 90deg;
+}
+#scissors{
+    font-size: 12vh;
+    /* rotate: 90deg ; */
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.message{
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: crimson;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.caption{
+    font-size: large;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* opacity: 1; */
+    color: rgb(232, 123, 123);
+    font-weight: 400;
+    
+}
+.counter{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid red; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.count{
+    margin: 0.5rem 1rem;
+    font-size: large;
+    color: #299ecc;
+    font-weight: 500;
+}
